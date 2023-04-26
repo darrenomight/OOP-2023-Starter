@@ -2,6 +2,8 @@ package ie.tudublin;
 
 import java.util.ArrayList;
 
+import javax.swing.AbstractCellEditor;
+
 import processing.data.Table;
 import processing.data.TableRow;
 
@@ -69,6 +71,12 @@ public class Word
     {
 
         return null;
+    }
+
+    public String render(String followArrL )
+    {   
+        followArrL = "Abc";
+        return followArrL;
     }
 }
 
