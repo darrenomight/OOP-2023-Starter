@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+import processing.data.TableRow;
+
 public class Follow 
 {
     
@@ -12,6 +14,9 @@ public class Follow
         this.count = count;
     }
     
+    public Follow(TableRow r) {
+    }
+
     public String getWord() {
         return word;
     }
